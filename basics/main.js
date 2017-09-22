@@ -1,14 +1,14 @@
  //12_1
-  // do {
-  //   var result = prompt("Каково «официальное» название JavaScript?»", " ");
-  // } while (result===null);
-  //     if (result==='ECMAScript')
-  //      {
-  //        document.write(' Верно!');
-  //      }
-  // else {
-  //        document.write('Не знаете? «ECMAScript»!');
-  //       }
+  do {
+    var result = prompt("Каково «официальное» название JavaScript?»", " ");
+  } while (result===null);
+      if (result==='ECMAScript')
+       {
+         document.write(' Верно!');
+       }
+  else {
+         document.write('Не знаете? «ECMAScript»!');
+        }
 
 //12_2
 // const result = prompt("Введите число", " ");
@@ -82,12 +82,12 @@
  //    } while (result <= 100 && result != null);
 
 //15_4
-for (let i=2; i<=10; i++)
-{
-let count=0;
- for (let j=2; j<10; j++)
-{
-  if (i%j===0 &&i!==j) count++;
- }
- if (count===0) document.write(i+ " ");
-}
+// for (let i=2; i<=10; i++)
+// {
+// let count=0;
+//  for (let j=2; j<10; j++)
+// {
+//   if (i%j===0 &&i!==j) count++;
+//  }
+//  if (count===0) document.write(i+ " ");
+// }
