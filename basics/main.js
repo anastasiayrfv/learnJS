@@ -49,15 +49,15 @@
 //  }
 
 //12_4
-const a=1 ;
-const  b=2;
-let result = (a + b < 4) ? 'Мало' : 'Много';
-document.write(result);
+// const a=1 ;
+// const  b=2;
+// let result = (a + b < 4) ? 'Мало' : 'Много';
+// document.write(result);
 
 //12_5
- //let login = prompt("Введите логин", " ");
- //let message = (login === 'Вася') ?'Привет':(login === 'Директор') ?'Здравствуйте':(login === '')?'Нет логина':' ';
- //document.write(message);
+ let login = prompt("Введите логин", " ");
+ let message = (login === 'Вася') ?'Привет':(login === 'Директор') ?'Здравствуйте':(login === '')?'Нет логина':' ';
+ document.write(message);
 
 
 //15_1
