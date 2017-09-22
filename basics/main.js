@@ -1,25 +1,25 @@
  //12_1
-  do {
-    var result = prompt("Каково «официальное» название JavaScript?»", " ");
-  } while (result===null);
-      if (result==='ECMAScript')
-       {
-         document.write(' Верно!');
-       }
-  else {
-         document.write('Не знаете? «ECMAScript»!');
-        }
+  // do {
+  //   var result = prompt("Каково «официальное» название JavaScript?»", " ");
+  // } while (result===null);
+  //     if (result==='ECMAScript')
+  //      {
+  //        document.write(' Верно!');
+  //      }
+  // else {
+  //        document.write('Не знаете? «ECMAScript»!');
+  //       }
 
 //12_2
-// const result = prompt("Введите число", " ");
- //if (result>0)
- //{
-  // alert('1');
- //} else if (result===0) {
-   //  alert('0');
- //} else {
-  //   alert('-1');
- //}
+const result = prompt("Введите число", " ");
+ if (result>0)
+ {
+  alert('1');
+ } else if (result===0) {
+    alert('0');
+ } else {
+    alert('-1');
+ }
 
 //12_3
 // const result = prompt("Введите логин", " ");
