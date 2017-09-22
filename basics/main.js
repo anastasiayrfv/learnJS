@@ -55,17 +55,17 @@
 // document.write(result);
 
 //12_5
- let login = prompt("Введите логин", " ");
- let message = (login === 'Вася') ?'Привет':(login === 'Директор') ?'Здравствуйте':(login === '')?'Нет логина':' ';
- document.write(message);
+ // let login = prompt("Введите логин", " ");
+ // let message = (login === 'Вася') ?'Привет':(login === 'Директор') ?'Здравствуйте':(login === '')?'Нет логина':' ';
+ // document.write(message);
 
 
 //15_1
-//  for (let i=1;i<=10; i++)
-//  {
-//   if (i%2===0)
-//   document.write(i+ " ");
-// }
+ for (let i=1;i<=10; i++)
+ {
+  if (i%2===0)
+  document.write(i+ " ");
+}
 
 //15_2
 
