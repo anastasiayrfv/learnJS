@@ -69,19 +69,19 @@
 
 //15_2
 
- let i=0;
- while (i<3)
- {
-  alert( `${'Номер'}  ${i++}  ${'!'}`  );
- }
+ // let i=0;
+ // while (i<3)
+ // {
+ //  alert( `${'Номер'}  ${i++}  ${'!'}`  );
+ // }
 
 //15_3
 
- // do {
- //    let result = prompt("Введите число", ' ');
- //    } while (result <= 100 && result != null);
-
-//15_4
+ do {
+    let result = prompt("Введите число", ' ');
+    } while (result <= 100 && result != null);
+//
+// 15_4
 // for (let i=2; i<=10; i++)
 // {
 // let count=0;
