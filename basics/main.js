@@ -77,16 +77,16 @@
 
 //15_3
 
- do {
-    let result = prompt("Введите число", ' ');
-    } while (result <= 100 && result != null);
+ // do {
+ //    let result = prompt("Введите число", ' ');
+ //    } while (result <= 100 && result != null);
 
 //15_4
-//for (let i=2; i<=10; i++)
-//{
-// let count=0;
- // for (let j=2; j<10; j++)
-//{
+for (let i=2; i<=10; i++)
+{
+let count=0;
+ for (let j=2; j<10; j++)
+{
 
   //if (i%j===0 &&i!==j) count++;
  //}
