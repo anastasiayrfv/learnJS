@@ -80,8 +80,8 @@
  // do {
  //    let result = prompt("Введите число", ' ');
  //    } while (result <= 100 && result != null);
-
-//15_4
+//
+// 15_4
 for (let i=2; i<=10; i++)
 {
 let count=0;
