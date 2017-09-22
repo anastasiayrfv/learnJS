@@ -22,37 +22,37 @@
 //  }
 
 //12_3
-const result = prompt("Введите логин", " ");
-
- if (result===null)
- {
-  alert("Вход отменён");
- }
- else if (result==="Админ"|| result==="aдмин")
- {
-  let password = prompt("Введите пароль", " ");
-  if (password===null)
-  {
-   alert("Вход отменён");
-  }
-  else  if(password==="Чёрный Властелин")
-   {
-      alert("Добро пожаловать!");
-  }
-   else {
-     alert("Пароль неверен");
-   }
- }
- else
- {
-    alert("Я вас не знаю");
- }
+// const result = prompt("Введите логин", " ");
+//
+//  if (result===null)
+//  {
+//   alert("Вход отменён");
+//  }
+//  else if (result==="Админ"|| result==="aдмин")
+//  {
+//   let password = prompt("Введите пароль", " ");
+//   if (password===null)
+//   {
+//    alert("Вход отменён");
+//   }
+//   else  if(password==="Чёрный Властелин")
+//    {
+//       alert("Добро пожаловать!");
+//   }
+//    else {
+//      alert("Пароль неверен");
+//    }
+//  }
+//  else
+//  {
+//     alert("Я вас не знаю");
+//  }
 
 //12_4
-// const a=1 ;
-// const  b=2;
-// let result = (a + b < 4) ? 'Мало' : 'Много';
-// document.write(result);
+const a=1 ;
+const  b=2;
+let result = (a + b < 4) ? 'Мало' : 'Много';
+document.write(result);
 
 //12_5
  // let login = prompt("Введите логин", " ");
