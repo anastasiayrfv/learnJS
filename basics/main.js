@@ -87,8 +87,7 @@ for (let i=2; i<=10; i++)
 let count=0;
  for (let j=2; j<10; j++)
 {
-
-  //if (i%j===0 &&i!==j) count++;
- //}
- // if (count===0) document.write(i+ " ");
-//}
+  if (i%j===0 &&i!==j) count++;
+ }
+ if (count===0) document.write(i+ " ");
+}
